@@ -6,3 +6,49 @@ Green: #00B172
 White: #FFF
 
 */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #FFF;
+}
+
+.header {
+    background-color: #00B172;
+    padding: 10px 20px;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-ul {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.crowd {
+    text-align: center;
+    padding: 50px;
+    background-size: cover;
+}
+
+.features {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #00B172;
+    border-radius: 5px;
+}
+
+.artist {
+    margin-top: 20px;
+}
