@@ -6,49 +6,84 @@ Green: #00B172
 White: #FFF
 
 */
-.body {
-    font-family: Arial, sans-serif;
+body {
+    color: #1a1a1a;
+    font-family: "Monserrat", sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #121212;
-    color: #FFF;
+    box-sizing: border-box;
 }
 
-.header {
-    background-color: #00B172;
-    padding: 10px 20px;
-}
-
-.nav-bar {
-    list-style: none;
+header {
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #fff;
+  }
+
+header img {
+    width: 16%;
+    height: auto;
+} 
+
+.nav-bar {
+    display: inline;
 }
 
 .nav-bar-ul {
-    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.nav-bar-ul li {
+    display: inline;
+    padding: 9px;
+}
+
+header ul li > a {
     text-decoration: none;
-    padding: 10px;
+    color: #1a1a1a;
 }
 
 .crowd {
-    text-align: center;
-    padding: 50px;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0 0;
+    width: 100vw;
+    max-width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.crowd h1 {
+    font-size: 58px;
+}
+
+.crowd p {
+    font-size: 1.3em;
+    width: 550px;
+    font-weight: normal;
+    text-align: center;
 }
 
 .features {
     text-align: center;
-    padding: 20px;
+    margin: 30px;
 }
 
 .feature {
-    margin: 20px 0;
-    padding: 10px;
-    border: 1px solid #00B172;
-    border-radius: 5px;
+    width: 220px;
+    font-size: 1.1em;
+    line-height: 1.6;
 }
 
-.artist {
-    margin-top: 20px;
-}
