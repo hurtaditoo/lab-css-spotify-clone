@@ -71,7 +71,7 @@ header ul li > a {
 
 .crowd p {
     font-size: 1.3em;
-    width: 550px;
+    width: 500px;
     font-weight: normal;
     text-align: center;
 }
@@ -113,27 +113,32 @@ header ul li > a {
     align-items: center;
     background-color: #00b172;
     color: #fff;
-    padding: 90px;
+    padding: 70px;
+    position: relative;
 }
 
 .search-browse {
-    width: 220px;
+    margin-top: 30px; 
+    width: 250px;
     font-size: 1em;
     line-height: 1.5;
 }
 
 .spot-icon {
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 
 .app {
     width: 240px;
-    height: auto;
+    position: absolute;
+    right: 10%;
+    top: 43%;
+    transform: translateY(-50%);
 }
 
 .kanye-title {
-    padding-bottom: 7px;
+    padding-bottom: 9px;
     border-bottom: 2px solid #fff;
     display: inline;
 }
